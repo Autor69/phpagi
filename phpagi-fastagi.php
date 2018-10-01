@@ -31,7 +31,7 @@
 
   $fastagi = new AGI();
 
-  $fastagi->verbose(print_r($fastagi, true));
+  #$fastagi->verbose(print_r($fastagi, true));
 
   if(!isset($fastagi->config['fastagi']['basedir']))
     $fastagi->config['fastagi']['basedir'] = dirname(__FILE__);
